@@ -100,13 +100,17 @@ class Solution {
         for(int i=arr2.length()-1;i>=0;i--)
         {
             char ch=arr2.charAt(i);
-            if(ch==' ')
+            if(i==arr2.length()-1)
+            {
+                arr2.deleteCharAt(i);
+                i--;
+            }
+            else if(ch==' ')
             {
                 arr2.deleteCharAt(i-1);
                 i--;
             }
         }
-        arr2.deleteCharAt(arr2.length()-1);
         return arr2.toString();
     }
 }
