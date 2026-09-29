@@ -27,7 +27,7 @@ class Solution {
     public void sortColors(int[] nums) {
 
         int a=nums.length;
-        for(int i=0;i<a;i++)
+        for(int i=0;i<a-1;i++)
         {
             boolean swap=false;
             for(int j=0;j<a-i-1;j++)
