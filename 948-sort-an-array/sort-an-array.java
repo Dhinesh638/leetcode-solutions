@@ -1,3 +1,5 @@
+// 1.
+
 // class Solution {
 //     public int[] sortArray(int[] nums) {
 
@@ -24,6 +26,8 @@
 //     }
 // }
 
+// 2.
+
 class Solution {
     public int[] sortArray(int[] nums) {
 
@@ -43,7 +47,43 @@ class Solution {
                 fre--;
                 b++;
             }
+            
         }
         return nums;
     }
 }
+
+// 3.
+
+// class Solution {
+//     public int[] sortArray(int[] nums) {
+
+//         int a=nums.length;
+//         int max=Integer.MIN_VALUE;
+//         int[] arr=Arrays.copyOf(nums,a);
+//         for(int i=0;i<a;i++)
+//         {
+//             if(nums[i]>max)
+//             {
+//                 max=nums[i];
+//             }
+//         }
+//         int k=0;
+//         for(int i=0;i<=max;i++)
+//         {
+//             int j=0;
+//             while(j<a)
+//             {
+//                 if(arr[j]==i)
+//                 {
+//                     nums[k]=arr[j];
+//                     k++;
+//                 }
+//                 j++;
+//             }
+//         }
+//         return nums;
+//     }
+// }
+
+
