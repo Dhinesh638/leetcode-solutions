@@ -3,3 +3,4 @@ class Solution(object):
         s=str(x)
         return s==s[::-1]
         
+     
