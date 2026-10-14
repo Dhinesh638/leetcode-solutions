@@ -21,7 +21,6 @@ class Solution {
       {
         d=a;
       }
-      boolean[] arr2=new boolean[c];
       boolean[] arr3=new boolean[d];
       ArrayList<Integer> arr=new ArrayList<>();
       for(int i=0;i<c;i++)
