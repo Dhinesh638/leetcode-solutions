@@ -13,15 +13,9 @@ class Solution {
             }
             else
             {
-                for(int j=i;j>0;j--)
-                {
-                    c++;
-                }
+                c+=i;
                 temp=capacity;
-                for(int k=0;k<=i;k++)
-                {
-                    c++;
-                }
+                c+=i+1;
                 temp=temp-plants[i];  
             }
         }
